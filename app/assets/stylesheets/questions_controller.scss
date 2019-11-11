@@ -1,3 +1,31 @@
 // Place all the styles related to the QuestionsController controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// You can use Sass (SCSS) here:
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+#hola {
+  width: 400px;
+  height: 30px;
+}
+
+#btn{
+  width: 70px;
+  padding: 10px 0px;
+  background: blue;
+  color: white;
+  border-radius: 5px;
+  font-size: inherit;
+}
+
+#btn:hover{
+  background: orange;
+  color: white;
+
+}
